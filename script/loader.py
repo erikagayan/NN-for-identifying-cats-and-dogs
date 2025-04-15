@@ -11,7 +11,7 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 # Path to source data
 source_dir = os.path.join(PROJECT_DIR, "dogs-vs-cats", "train", "train")
 # Path to target folders
-target_base_dir = "C:/Users/Dxts3/PycharmProjects/CatsandDogs/dataset"
+target_base_dir = "/dataset"
 cat_dir = os.path.join(target_base_dir, "cat")
 dog_dir = os.path.join(target_base_dir, "dog")
 
